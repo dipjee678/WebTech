@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Academic Profile</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal academic profile page">
+    <meta name="keywords" content="academic profile, student, internship">
+</head>
+<body>
+
+    
+    <header>
+        <h1>My Academic Profile</h1>
+        <nav>
+            <a href="#bio">Biography</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>This section contains a short biography.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            
+            <table border="1">
+                <caption>Education Details</caption>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BSc in CSE</td>
+                        <td>Aiub</td>
+                        <td>2023–2026</td>
+                        <td>CGPA 3.80</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+     
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <form>
+                <label for="name">Name:</label><br>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Your name" 
+                    required 
+                    maxlength="50"
+                >
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="your@email.com" 
+                    required 
+                    maxlength="50"
+                >
+                <br><br>
+
+                <label for="phone">Phone:</label><br>
+                <input 
+                    type="tel" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="01XXXXXXXXX" 
+                    pattern="01[0-9]{9}" 
+                    required
+                >
+                <br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    placeholder="Write your message" 
+                    required 
+                    maxlength="200"
+                ></textarea>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Contact info / Copyright</p>
+    </footer>
+
+</body>
+</html>
