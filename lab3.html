@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prime Check</title>
+</head>
+<body>
+ 
+<h2>Check Browser Console Output</h2>
+ 
+<script>
+    
+var num1 = 5; 
+var num2 = 10; 
+var sum = num1 + num2; 
+console.log("The sum of " + num1 + " and " + num2 + " is " + sum); 
+//Checking Odd or Even 
+var number = 7; 
+if (number % 2 === 0) { 
+console.log(number + " is even."); 
+} else { 
+console.log(number + " is odd."); 
+}
+
+//Simple Calculation    
+var num1 = 10; 
+var num2 = 5; 
+console.log("Addition: " + (num1 + num2)); 
+console.log("Subtraction: " + (num1 - num2)); 
+console.log("Multiplication: " + (num1 * num2)); 
+console.log("Division: " + (num1 / num2)); 
+
+
+//Find Largest Number 
+var num3=15;
+var num4=22;
+var num5=8;
+
+var largest = num3;
+
+if(num4>largest){
+    largest=num4;
+}
+if(num5>largest){
+    largest=num5
+}
+
+console.log("The largest number is:"+largest);
+
+//Factorial
+var factorial=1;
+
+for(var i = num2;i>0;i--){
+    factorial*=i;
+}
+
+console.log("Factorial of "+num2+" is : "+factorial);
+
+//Reverse a String
+var str ="JavaScript";
+var ReversedStr = "";
+for(var i = str.length-1;i>=0;i--){
+ReversedStr +=str[i];
+}
+console.log("Reversed string in: "+ReversedStr);
+
+//Prime Number Checker
+var num = 29; 
+var isPrime = true; 
+ 
+for (var i = 2; i < num; i++) { 
+  if (num % i === 0) { 
+    isPrime = false; 
+    break; 
+  } 
+} 
+ 
+if (isPrime) { 
+  console.log(num + " is a prime number."); 
+} else { 
+  console.log(num + " is not a prime number."); 
+}
+
+//Array Manipulation 
+var arr = [1, 2, 3, 4, 5]; 
+arr.push(6); 
+arr.shift(); 
+console.log("Modified array: " + arr); 
+
+//Simple Object Example 
+var person = { 
+name: "Alice", 
+age: 30 
+}; 
+console.log("Name: " + person.name); 
+console.log("Age: " + person.age); 
+
+
+
+
+
+</script>
+
+ 
+</body>
+</html>
